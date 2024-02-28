@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /*header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }*/
+        nav {
+            position: fixed;
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        section {
+            padding: 20px;
+            height: 100dvh;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;           
+            border-radius: 6px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            height: 250px;
+        }
+
+        main {
+            width: 80%;
+            background-color: #fff;
+            margin: auto;
+        }
+
+        .techno {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            gap: 1rem;
+        }
+
+        .subtechno {
+            display: grid;            
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+        }
+        .subtop{
+            margin-top: 20px;
+        }
+        .techno img {
+            border-radius: 25px;
+            width: 90%;
+        }
+        .techno p{
+            line-height: 1.6;
+        }
+        .box img{
+            border-radius: 14px;
+            height: 200px;
+            width: 100%;
+        }
+        .box a{
+            text-decoration: none;
+        }
+        #menu img {
+            height: 250px;
+            width: 350px;
+            border-radius: 14px;
+        }
+        #menu ul{
+            list-style: none;
+        }
+        #menu ul li{
+            margin-bottom: 2px;
+            display: flex;
+            line-height: 1.6;
+            gap: 16px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!--     <header>
+        <h1>Welcome to Image Links</h1>
+    </header> -->
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#menu">Menu</a>
+    </nav>
+    <main>
+        <section id="home">
+            <div class="techno">
+                <div>
+                    <h2>Home</h2>
+                    <h4 >Welcome to Image and Link Demonstration!</h4>
+                    <p align="Justify">Under this section i try to demonstrate what we learn and practice during the session
+                        and study to understand image tag and hyperlink which is anchor tag. </p>
+                    <p align="Justify">
+                        In addition to this it include some HTML tag like paragraph, heading, list and etc.</p>
+                    <p>
+                        All this demonstrated using technology related image.</p>
+                    <a href="https://technologymagazine.com/top10/top-10-biggest-innovations-of-2023" target="_blank">
+                        <img src="Technology.jpg" alt="Top 10 biggest innovations of 2023">
+                    </a>
+                </div>
+                <div class="subtop">
+                    <div class="subtechno">
+                        <div class="box">
+                            <figure>
+                            <a href="https://www.networkworld.com/article/965316/vmware-tackles-complexity-of-multi-cloud-environments.html" target="_blank">
+                                <img src="https://www.networkworld.com/wp-content/uploads/2023/11/cloud_computing_network_connections_synchronization_thinkstock_584207196_3x2-100740711-orig.jpg?resize=1024%2C683&quality=50&strip=all" alt=""/>
+                                <figcaption>Multi-cloud environments</figcaption>
+                            </a>
+                        </figure>
+                        </div>
+                        <div class="box">
+                            <figure>
+                            <a href="https://arabsstock.com/en/photos/image-117805-modern-advanced-robot-high-technologies-achieving-industrial" target="_blank">
+                                <img src="https://cdn.arabsstock.com/uploads/images/117805/image-117805-modern-advanced-robot-high-technologies-achieving-industr-preview.jpg" alt="advanced robot"/>
+                                <figcaption>Advanced robot</figcaption>
+                            </a>
+                        </figure>
+                        </div>
+                        <div class="box">
+                            <figure>
+                            <a href="https://www.innovationnewsnetwork.com/quantum-computing-unveiled-global-advancements-challenges-irelands-position/38048/" target="_blank">
+                                <img src="https://www.innovationnewsnetwork.com/wp-content/uploads/2023/10/shutterstockBartlomiej-K.-Wroblewski_1571766802-696x392.jpg" alt="Quantum computing"/>
+                                <figcaption>Quantum computing</figcaption>
+                            </a>
+                        </figure>
+                        </div>
+                        <div class="box">
+                            <figure>
+                            <a href="https://www.learningroutes.in/green-technology-for-sustainable-future/" target="_blank">
+                                <img src="https://www.learningroutes.in/wp-content/uploads/2024/01/green-living-and-sustainable-future.webp" alt="Green Technology and Education"/>
+                                <figcaption>Green Technology and Education</figcaption>
+                            </a>
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+
+                <a href="https://www.nature.com/articles/s41477-019-0374-3">
+                    <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41477-019-0374-3/MediaObjects/41477_2019_374_Figa_HTML.jpg" alt="Nature Plants">
+                </a>
+
+                <a href="https://www.britannica.com/science/flower">
+                    <img src="https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg" alt="sunflower field">
+                </a>
+
+                <a href="https://education.nationalgeographic.org/resource/understanding-rivers/">
+                    <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638886653/EducationHub/photos/jinsha-river.jpg" alt="Understanding Rivers">
+                </a>
+
+                <a href="https://www.livescience.com/23359-mount-everest.html">
+                    <img src="https://cdn.mos.cms.futurecdn.net/D9bzCVeZLHQnZ6bUWvAkrW-650-80.jpg.webp" alt="Mount Everest">
+                </a>
+
+                <a href="https://www.treehugger.com/life-in-a-temperate-grassland-3957466">
+                    <img src="https://www.treehugger.com/thmb/MC3yYXGkfK-zIyrsyrCcO_hM9h4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/buffalo-gap-national-grasslands-56d40df05f9b5879cc8e69ac.jpg" alt="Life In A Temperate Grassland">
+                </a>
+
+                <a href="https://education.nationalgeographic.org/resource/waterfall/">
+                    <img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638882947/EducationHub/photos/tourists-at-victoria-falls.jpg" alt="A waterfall">
+                </a>
+
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <a href="https://edition.cnn.com/travel/article/world-best-food-dishes/index.html" target="_blank">                        
+                        <img src="https://media.cnn.com/api/v1/images/stellar/prod/170206165040-dubai-michelin-dining-boca.jpg" alt="Seafood paella">
+                        <br>Seafood paella
+                    </a>                          
+                          <p align="Justify"> The sea is lapping just by your feet, a warm breeze whips the tablecloth around your legs 
+                            and a steamy pan of paella sits in front of you. Shrimp, lobster, mussels and cuttlefish 
+                            combine with white rice and various herbs, oil and salt in this Valencian dish to send you 
+                            immediately into holiday mode. Though if you have it in Spain, you’re probably there already.</p>
+                  
+                </li>
+                <li>
+                    <a href="https://www.intrepidtravel.com/adventures/food-in-kenya/" target="_blank">  
+                        <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2022/05/Kenya-Nyama-Choma-sharing-plate-traditional-dish-1320191333-ss-800x450-1.jpg" alt="Nyama choma">
+                       <br> Nyama choma
+                    </a>
+                    <p align="Justify">Meaning ‘grilled meat’ in Swahili, nyama choma is considered to be
+                         Kenya’s unofficial national dish. The meat of choice is goat, but beef, chicken 
+                         and fish are also popular. It’s seasoned with salt and slow-cooked over hot coals 
+                         until tender, and is usually served with rice, chapati and kachumbari (a tangy 
+                         relish of red onions, tomatoes, coriander, chilli and lime juice). You’ll find it 
+                         everywhere from the finest restaurants to local street food stalls. The smell alone 
+                         will be enough to make your mouth water!</p>
+                </li>
+                <li>
+                    <a href="https://tanzania-specialist.com/tanzanian-traditional-food/" target="_blank">  
+                        <img src="https://tanzania-specialist.com/wp-content/uploads/old-tanzania-specialist_com/2022/09/Ugali.jpg" alt="Ugali Maharage">
+                        <br>Ugali Maharage
+                    </a>
+                    <p align="Justify">Ugali reigns supreme as the undisputed king of Tanzanian cuisine,
+                         holding the esteemed title of the country’s national meal. It’s not just a dish; 
+                         it’s a culinary cornerstone deeply ingrained in the daily lives of Tanzanians,
+                          who indulge in it approximately four times a week on average.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
